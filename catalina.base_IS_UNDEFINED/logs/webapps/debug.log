@@ -1,0 +1,30 @@
+2020-01-19 15:47:06.818 [main] DEBUG guo.proj.javao2o.dao.AreaDaoTest -Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE
+2020-01-19 15:47:09.684 [main] DEBUG guo.proj.javao2o.dao.AreaDao.queryArea -==>  Preparing: SELECT area_id, area_name, priority, create_time, last_edit_time FROM tb_area ORDER BY priority DESC 
+2020-01-19 15:47:09.709 [main] DEBUG guo.proj.javao2o.dao.AreaDao.queryArea -==> Parameters: 
+2020-01-19 15:47:09.732 [main] DEBUG guo.proj.javao2o.dao.AreaDao.queryArea -<==      Total: 2
+2020-01-19 15:47:35.467 [main] DEBUG guo.proj.javao2o.dao.AreaDaoTest -Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE
+2020-01-19 15:47:38.112 [main] DEBUG guo.proj.javao2o.dao.AreaDao.queryArea -==>  Preparing: SELECT area_id, area_name, priority, create_time, last_edit_time FROM tb_area ORDER BY priority DESC 
+2020-01-19 15:47:38.141 [main] DEBUG guo.proj.javao2o.dao.AreaDao.queryArea -==> Parameters: 
+2020-01-19 15:47:38.165 [main] DEBUG guo.proj.javao2o.dao.AreaDao.queryArea -<==      Total: 2
+2020-01-19 17:57:03.708 [main] DEBUG guo.proj.javao2o.dao.AreaDaoTest -Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE
+2020-01-19 17:57:06.508 [main] DEBUG guo.proj.javao2o.dao.AreaDao.queryArea -==>  Preparing: SELECT area_id, area_name, priority, create_time, last_edit_time FROM tb_area ORDER BY priority DESC 
+2020-01-19 17:57:06.534 [main] DEBUG guo.proj.javao2o.dao.AreaDao.queryArea -==> Parameters: 
+2020-01-19 17:57:06.559 [main] DEBUG guo.proj.javao2o.dao.AreaDao.queryArea -<==      Total: 2
+2020-01-19 17:57:21.233 [main] DEBUG guo.proj.javao2o.service.WechatAuthServiceTest -Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE
+2020-01-19 17:57:24.054 [main] DEBUG g.proj.javao2o.dao.PersonInfoDao.insertPersonInfo -==>  Preparing: INSERT INTO tb_person_info(name,gender,email,profile_img,user_type, create_time,last_edit_time,enable_status) VALUES (?,?,?,?, ?,?,?,?) 
+2020-01-19 17:57:24.089 [main] DEBUG g.proj.javao2o.dao.PersonInfoDao.insertPersonInfo -==> Parameters: test of register(String), null, null, null, 1(Integer), 2020-01-19 17:57:24.035(Timestamp), null, 1(Integer)
+2020-01-19 17:57:24.251 [main] DEBUG g.proj.javao2o.dao.PersonInfoDao.insertPersonInfo -<==    Updates: 1
+2020-01-19 17:57:24.274 [main] DEBUG g.proj.javao2o.dao.WechatAuthDao.insertWechatAuth -==>  Preparing: INSERT INTO tb_wechat_auth(user_id,open_id,create_time) VALUES (?,?,?) 
+2020-01-19 17:57:24.278 [main] DEBUG g.proj.javao2o.dao.WechatAuthDao.insertWechatAuth -==> Parameters: 13(Long), dfrrrrrrrr(String), 2020-01-19 17:57:24.035(Timestamp)
+2020-01-19 17:57:24.324 [main] DEBUG g.proj.javao2o.dao.WechatAuthDao.insertWechatAuth -<==    Updates: 1
+2020-01-19 17:57:24.444 [main] DEBUG g.p.j.dao.WechatAuthDao.queryWechatInfoByOpenId -==>  Preparing: SELECT w.wechat_auth_id, w.open_id, w.create_time, p.user_id, p.name, p.gender, p.email, p.profile_img, p.user_type, p.create_time, p.last_edit_time, p.enable_status FROM tb_wechat_auth w LEFT JOIN tb_person_info p ON w.user_id = p.user_id WHERE w.open_id = ? 
+2020-01-19 17:57:24.444 [main] DEBUG g.p.j.dao.WechatAuthDao.queryWechatInfoByOpenId -==> Parameters: dfrrrrrrrr(String)
+2020-01-19 17:57:24.456 [main] DEBUG g.p.j.dao.WechatAuthDao.queryWechatInfoByOpenId -<==      Total: 1
+2020-01-19 17:59:27.319 [main] DEBUG guo.proj.javao2o.service.AreaServiceTest -Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE
+2020-01-19 17:59:31.032 [main] DEBUG guo.proj.javao2o.dao.AreaDao.queryArea -==>  Preparing: SELECT area_id, area_name, priority, create_time, last_edit_time FROM tb_area ORDER BY priority DESC 
+2020-01-19 17:59:31.067 [main] DEBUG guo.proj.javao2o.dao.AreaDao.queryArea -==> Parameters: 
+2020-01-19 17:59:31.088 [main] DEBUG guo.proj.javao2o.dao.AreaDao.queryArea -<==      Total: 2
+2020-01-19 17:59:32.986 [main] DEBUG guo.proj.javao2o.dao.AreaDao.queryArea -==>  Preparing: SELECT area_id, area_name, priority, create_time, last_edit_time FROM tb_area ORDER BY priority DESC 
+2020-01-19 17:59:32.987 [main] DEBUG guo.proj.javao2o.dao.AreaDao.queryArea -==> Parameters: 
+2020-01-19 17:59:32.991 [main] DEBUG guo.proj.javao2o.dao.AreaDao.queryArea -<==      Total: 2
+2020-01-19 18:04:25.383 [main] DEBUG guo.proj.javao2o.service.AreaServiceTest -Running with Spring Boot v2.2.3.RELEASE, Spring v5.2.3.RELEASE

@@ -1,0 +1,18 @@
+2020-01-19 15:47:06.817 [main] INFO  guo.proj.javao2o.dao.AreaDaoTest -Starting AreaDaoTest on LAPTOP-IKT7FIPD with PID 24932 (started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-19 15:47:06.819 [main] INFO  guo.proj.javao2o.dao.AreaDaoTest -No active profile set, falling back to default profiles: default
+2020-01-19 15:47:08.976 [main] INFO  guo.proj.javao2o.dao.AreaDaoTest -Started AreaDaoTest in 2.421 seconds (JVM running for 3.38)
+2020-01-19 15:47:35.467 [main] INFO  guo.proj.javao2o.dao.AreaDaoTest -Starting AreaDaoTest on LAPTOP-IKT7FIPD with PID 26028 (started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-19 15:47:35.468 [main] INFO  guo.proj.javao2o.dao.AreaDaoTest -No active profile set, falling back to default profiles: default
+2020-01-19 15:47:37.653 [main] INFO  guo.proj.javao2o.dao.AreaDaoTest -Started AreaDaoTest in 2.439 seconds (JVM running for 3.471)
+2020-01-19 17:57:03.707 [main] INFO  guo.proj.javao2o.dao.AreaDaoTest -Starting AreaDaoTest on LAPTOP-IKT7FIPD with PID 27068 (started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-19 17:57:03.708 [main] INFO  guo.proj.javao2o.dao.AreaDaoTest -No active profile set, falling back to default profiles: default
+2020-01-19 17:57:06.033 [main] INFO  guo.proj.javao2o.dao.AreaDaoTest -Started AreaDaoTest in 2.591 seconds (JVM running for 3.644)
+2020-01-19 17:57:21.232 [main] INFO  guo.proj.javao2o.service.WechatAuthServiceTest -Starting WechatAuthServiceTest on LAPTOP-IKT7FIPD with PID 27180 (started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-19 17:57:21.234 [main] INFO  guo.proj.javao2o.service.WechatAuthServiceTest -No active profile set, falling back to default profiles: default
+2020-01-19 17:57:23.561 [main] INFO  guo.proj.javao2o.service.WechatAuthServiceTest -Started WechatAuthServiceTest in 2.568 seconds (JVM running for 3.584)
+2020-01-19 17:59:27.318 [main] INFO  guo.proj.javao2o.service.AreaServiceTest -Starting AreaServiceTest on LAPTOP-IKT7FIPD with PID 10008 (started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-19 17:59:27.319 [main] INFO  guo.proj.javao2o.service.AreaServiceTest -No active profile set, falling back to default profiles: default
+2020-01-19 17:59:29.651 [main] INFO  guo.proj.javao2o.service.AreaServiceTest -Started AreaServiceTest in 2.611 seconds (JVM running for 3.646)
+2020-01-19 18:04:25.382 [main] INFO  guo.proj.javao2o.service.AreaServiceTest -Starting AreaServiceTest on LAPTOP-IKT7FIPD with PID 3516 (started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-19 18:04:25.383 [main] INFO  guo.proj.javao2o.service.AreaServiceTest -No active profile set, falling back to default profiles: default
+2020-01-19 18:04:27.811 [main] INFO  guo.proj.javao2o.service.AreaServiceTest -Started AreaServiceTest in 2.684 seconds (JVM running for 3.76)
