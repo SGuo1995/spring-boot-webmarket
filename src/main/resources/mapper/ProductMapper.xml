@@ -11,6 +11,7 @@
         <result column="priority" property="priority"/>
         <result column="create_time" property="createTime"/>
         <result column="last_edit_time" property="lastEditTime"/>
+        <result column="point" property="point"/>
         <result column="enable_status" property="enableStatus"/>
         <association property="productCategory" column="product_category_id"
                      javaType="guo.proj.javao2o.entity.ProductCategory">
@@ -46,6 +47,7 @@
         priority,
         create_time,
         last_edit_time,
+        point,
         enable_status,
         product_category_id,
         shop_id
@@ -113,6 +115,7 @@
         p.priority,
         p.create_time,
         p.last_edit_time,
+        p.point,
         p.enable_status,
         p.product_category_id,
         p.shop_id,
@@ -140,12 +143,12 @@
 		INSERT INTO
 		tb_product(product_name,product_desc,img_addr,
 		normal_price,promotion_price,priority,create_time,
-		last_edit_time,enable_status,product_category_id,
+		last_edit_time,point,enable_status,product_category_id,
 		shop_id)
 		VALUES
 		(#{productName},#{productDesc},#{imgAddr},
 		#{normalPrice},#{promotionPrice},#{priority},#{createTime},
-		#{lastEditTime},#{enableStatus},#{productCategory.productCategoryId},
+		#{lastEditTime},#{point},#{enableStatus},#{productCategory.productCategoryId},
 		#{shop.shopId})
 	</insert>
 
@@ -160,6 +163,7 @@
             <if test="promotionPrice != null">promotion_price=#{promotionPrice},</if>
             <if test="priority != null">priority=#{priority},</if>
             <if test="lastEditTime != null">last_edit_time=#{lastEditTime},</if>
+            <if test="point != null">point=#{point},</if>
             <if test="enableStatus != null">enable_status=#{enableStatus},</if>
             <if
                     test="productCategory != null

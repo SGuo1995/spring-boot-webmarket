@@ -12,6 +12,10 @@ public class Product {
     private String promotionPrice;
     private Integer priority;
     private Date createTime;
+    private Integer point;
+
+
+
     private Date lastEditTime;
     // 0 not available 1 on sale
     private Integer enableStatus;
@@ -121,5 +125,12 @@ public class Product {
 
     public void setShop(Shop shop) {
         this.shop = shop;
+    }
+    public Integer getPoint() {
+        return point;
+    }
+
+    public void setPoint(Integer point) {
+        this.point = point;
     }
 }

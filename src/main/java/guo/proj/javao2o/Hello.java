@@ -1,4 +1,4 @@
-package guo.proj.javao2o.controller;
+package guo.proj.javao2o;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -6,13 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Hello {
-    @RequestMapping(value = "/hello")
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String hello() {
-        return "Hello a SpringBoot!";
+        //返回Hello SpringBoot!
+        return "Hello SpringBoot!";
     }
-
-//    @RequestMapping("/fuck")
-//    public String fck(){
-//        return "fpc";
-//    }
 }
