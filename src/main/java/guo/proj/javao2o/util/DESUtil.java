@@ -86,8 +86,8 @@ public class DESUtil {
     }
 
     public static void main(String[] args) {
-        System.out.println(getEncryptString("guo"));
-        System.out.println(getEncryptString("gs19951105"));
+        System.out.println(getEncryptString("work"));
+        System.out.println(getEncryptString("Gs1995.0.0"));
     }
 
 }

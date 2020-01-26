@@ -23,7 +23,7 @@ public class WechatAuthServiceTest {
     @Test
     public void testRegister() {
         WechatAuth wechatAuth = new WechatAuth();
-        wechatAuth.setOpenId("dfrrrrrrrr");
+        wechatAuth.setOpenId("dfrrr9rrrr");
         wechatAuth.setCreateTime(new Date());
         PersonInfo personInfo = new PersonInfo();
         personInfo.setUserType(1);
@@ -32,7 +32,7 @@ public class WechatAuthServiceTest {
         wechatAuth.setPersonInfo(personInfo);
         WechatAuthExecution wae = wechatAuthService.register(wechatAuth);
         assertEquals(wae.getState(), WechatAuthStateEnum.SUCCESS.getState());
-        wechatAuth = wechatAuthService.getWechatAuthByOpenId("dfrrrrrrrr");
+        wechatAuth = wechatAuthService.getWechatAuthByOpenId("dfrrr9rrrr");
         System.out.println(wechatAuth.getPersonInfo().getName());
     }
 }

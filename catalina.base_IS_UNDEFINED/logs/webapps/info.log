@@ -1,76 +1,54 @@
-2020-01-20 16:24:14.253 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 9860 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:24:14.280 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 16:26:22.686 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 24644 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:26:22.690 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 16:27:13.793 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 28244 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:27:13.795 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 16:27:15.406 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.829 seconds (JVM running for 2.856)
-2020-01-20 16:28:50.276 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 29728 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:28:50.279 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 16:31:22.902 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 21416 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:31:22.904 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 16:31:24.242 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.559 seconds (JVM running for 2.58)
-2020-01-20 16:32:12.706 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 27592 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:32:12.708 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 16:32:14.119 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.641 seconds (JVM running for 3.549)
-2020-01-20 16:44:25.264 [main] INFO  guo.proj.javao2o.dao.AreaDaoTest -Starting AreaDaoTest on LAPTOP-IKT7FIPD with PID 16912 (started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:44:25.265 [main] INFO  guo.proj.javao2o.dao.AreaDaoTest -No active profile set, falling back to default profiles: default
-2020-01-20 16:44:27.571 [main] INFO  guo.proj.javao2o.dao.AreaDaoTest -Started AreaDaoTest in 2.574 seconds (JVM running for 3.853)
-2020-01-20 16:44:48.419 [main] INFO  guo.proj.javao2o.service.AreaServiceTest -Starting AreaServiceTest on LAPTOP-IKT7FIPD with PID 26028 (started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:44:48.420 [main] INFO  guo.proj.javao2o.service.AreaServiceTest -No active profile set, falling back to default profiles: default
-2020-01-20 16:44:50.626 [main] INFO  guo.proj.javao2o.service.AreaServiceTest -Started AreaServiceTest in 2.464 seconds (JVM running for 3.471)
-2020-01-20 16:47:15.138 [main] INFO  guo.proj.javao2o.service.AreaServiceTest -Starting AreaServiceTest on LAPTOP-IKT7FIPD with PID 29616 (started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:47:15.139 [main] INFO  guo.proj.javao2o.service.AreaServiceTest -No active profile set, falling back to default profiles: default
-2020-01-20 16:48:55.276 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 9708 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:48:55.279 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 16:51:08.504 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 23084 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:51:08.507 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 16:53:46.439 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 30104 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:53:46.441 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 16:56:33.241 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 29100 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:56:33.243 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 16:57:49.743 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 24416 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:57:49.745 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 16:57:51.130 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.714 seconds (JVM running for 2.834)
-2020-01-20 16:58:47.846 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 1680 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:58:47.850 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 16:58:49.464 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.922 seconds (JVM running for 3.148)
-2020-01-20 16:59:11.239 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 25784 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 16:59:11.242 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 16:59:12.592 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.577 seconds (JVM running for 2.618)
-2020-01-20 17:05:59.351 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 8692 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 17:05:59.353 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 17:06:00.701 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.569 seconds (JVM running for 2.581)
-2020-01-20 17:07:17.225 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 29628 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 17:07:17.227 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 17:07:18.546 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.555 seconds (JVM running for 2.567)
-2020-01-20 17:08:52.362 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 11340 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 17:08:52.364 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 17:08:53.749 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.603 seconds (JVM running for 2.643)
-2020-01-20 17:25:27.785 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 10124 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 17:25:27.787 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 17:25:29.222 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.685 seconds (JVM running for 2.778)
-2020-01-20 17:28:17.022 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 26352 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 17:28:17.026 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 17:28:18.483 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.734 seconds (JVM running for 2.799)
-2020-01-20 17:31:53.933 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 22836 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 17:31:53.935 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 17:31:55.276 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.561 seconds (JVM running for 2.585)
-2020-01-20 17:37:16.398 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 25076 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 17:37:16.400 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 17:37:17.749 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.568 seconds (JVM running for 2.558)
-2020-01-20 17:40:32.479 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 29176 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 17:40:32.482 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 17:40:33.869 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.634 seconds (JVM running for 2.628)
-2020-01-20 17:46:16.470 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 19656 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 17:46:16.472 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 17:46:17.795 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.539 seconds (JVM running for 2.521)
-2020-01-20 17:47:44.257 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 30164 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 17:47:44.259 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 17:47:45.633 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.597 seconds (JVM running for 2.632)
-2020-01-20 17:51:51.191 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 15448 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 17:51:51.193 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 17:51:52.552 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.602 seconds (JVM running for 2.705)
-2020-01-20 18:32:29.018 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 7464 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
-2020-01-20 18:32:29.021 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
-2020-01-20 18:32:30.528 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.817 seconds (JVM running for 2.937)
+2020-01-26 00:20:34.929 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 4624 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 00:20:34.935 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 00:20:36.533 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.903 seconds (JVM running for 3.217)
+2020-01-26 00:30:53.817 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 15740 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 00:30:53.821 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 00:30:55.543 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.959 seconds (JVM running for 4.939)
+2020-01-26 11:14:50.664 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 9076 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 11:14:50.684 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 11:14:53.260 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 2.869 seconds (JVM running for 4.679)
+2020-01-26 11:18:32.376 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 15072 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 11:18:32.378 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 11:18:34.090 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.96 seconds (JVM running for 4.422)
+2020-01-26 11:32:20.635 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 19604 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 11:32:20.637 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 11:32:22.146 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.846 seconds (JVM running for 3.097)
+2020-01-26 11:37:20.681 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 4068 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 11:37:20.684 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 11:37:22.278 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.931 seconds (JVM running for 3.149)
+2020-01-26 11:41:03.638 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 15200 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 11:41:03.642 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 11:41:05.266 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.899 seconds (JVM running for 3.027)
+2020-01-26 11:48:19.330 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 17168 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 11:48:19.334 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 11:48:20.846 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.806 seconds (JVM running for 2.957)
+2020-01-26 12:01:52.722 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 23228 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 12:01:52.724 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 12:01:54.256 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.888 seconds (JVM running for 3.039)
+2020-01-26 12:05:16.057 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 16340 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 12:05:16.060 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 12:05:17.630 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.89 seconds (JVM running for 3.083)
+2020-01-26 12:10:10.263 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 13912 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 12:10:10.266 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 12:10:11.757 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.765 seconds (JVM running for 2.877)
+2020-01-26 12:19:10.481 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 6304 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 12:19:10.484 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 12:19:11.985 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.789 seconds (JVM running for 2.902)
+2020-01-26 12:28:45.104 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 18832 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 12:28:45.107 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 12:28:46.582 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.732 seconds (JVM running for 2.853)
+2020-01-26 12:31:35.422 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 6392 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 12:31:35.424 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 12:31:36.994 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.852 seconds (JVM running for 3.024)
+2020-01-26 12:35:47.344 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 7324 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 12:35:47.346 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 12:35:48.741 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.621 seconds (JVM running for 2.626)
+2020-01-26 12:37:40.882 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 23468 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 12:37:40.884 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 12:37:42.210 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.557 seconds (JVM running for 2.557)
+2020-01-26 12:41:03.763 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 3568 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 12:41:03.765 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 12:41:05.268 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.784 seconds (JVM running for 2.92)
+2020-01-26 12:53:35.156 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Starting SpringBootDemoApplication on LAPTOP-IKT7FIPD with PID 19088 (D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo\target\classes started by 24965 in D:\ClassFiles\WebMarketplaceOnCampus\spring-boot-demo)
+2020-01-26 12:53:35.158 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -No active profile set, falling back to default profiles: default
+2020-01-26 12:53:36.494 [main] INFO  guo.proj.javao2o.SpringBootDemoApplication -Started SpringBootDemoApplication in 1.567 seconds (JVM running for 2.551)
