@@ -32,8 +32,39 @@ public class ShopAdminController {
         return "shop/shopmanagement";
     }
 
+    @RequestMapping(value = "/awardmanagement")
+    public String awardManagement() {
+        return "shop/awardmanagement";
+    }
     @RequestMapping(value = "/productcategorymanagement")
     public String productCategoryManagement() {
         return "shop/productcategorymanagement";
     }
+    @RequestMapping(value = "/awarddelivercheck")
+    public String awardDeliverCheck() {
+        return "shop/awarddelivercheck";
+    }
+    @RequestMapping(value = "/usershopcheck")
+    public String userShopCheck() {
+        return "shop/usershopcheck";
+    }
+    @RequestMapping(value = "/shopauthmanagement")
+    public String shopAuthManagement() {
+        return "shop/shopauthmanagement";
+    }
+    @RequestMapping(value = "/shopauthedit")
+    public String shopAuthEdit() {
+        return "shop/shopauthedit";
+    }
+
+    @RequestMapping(value = "/operationfail")
+    public String operationFail() {
+        return "shop/operationfail";
+    }
+
+    @RequestMapping(value = "/operationsuccess")
+    public String operationSuccess() {
+        return "shop/operationsuccess";
+    }
+
 }
