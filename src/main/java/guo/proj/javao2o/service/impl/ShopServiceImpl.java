@@ -1,15 +1,19 @@
 package guo.proj.javao2o.service.impl;
 
+import guo.proj.javao2o.dao.ShopAuthMapDao;
 import guo.proj.javao2o.dao.ShopDao;
 import guo.proj.javao2o.dto.ImageHolder;
 import guo.proj.javao2o.dto.ShopExecution;
 import guo.proj.javao2o.entity.Shop;
+import guo.proj.javao2o.entity.ShopAuthMap;
 import guo.proj.javao2o.enums.ShopStateEnum;
 import guo.proj.javao2o.exceptions.ShopOperationException;
 import guo.proj.javao2o.service.ShopService;
 import guo.proj.javao2o.util.ImageUtil;
 import guo.proj.javao2o.util.PageCalculator;
 import guo.proj.javao2o.util.PathUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -22,11 +26,15 @@ public class ShopServiceImpl implements ShopService {
     @Autowired
     private ShopDao shopDao;
 
+    @Autowired
+    private ShopAuthMapDao shopAuthMapDao;
+
     @Override
     public Shop getByShopId(long shopId) {
         return shopDao.queryByShopId(shopId);
     }
 
+    private final static Logger LOG = LoggerFactory.getLogger(ShopServiceImpl.class);
     @Override
     public ShopExecution getShopList(Shop shopCondition, int pageIndex, int pageSize) {
         int rowIndex = PageCalculator.calculateRowIndex(pageIndex, pageSize);
@@ -90,6 +98,7 @@ public class ShopServiceImpl implements ShopService {
             //insert shop into database
             int effectedNum = shopDao.insertShop(shop);
             if (effectedNum <= 0) {
+                LOG.error("returned 0 effected numbers when inserting shop");
                 throw new ShopOperationException("Fail to add Shop");
             } else {
                 if (thumbnail.getImage() != null) {
@@ -97,19 +106,42 @@ public class ShopServiceImpl implements ShopService {
                     try {
                         addShopImg(shop, thumbnail);
                     } catch (Exception e) {
-                        throw new ShopOperationException("add Img error" + e.getMessage());
+                        LOG.error("addShopImg error:" + e.getMessage());
+                        throw new ShopOperationException("Failed to add image");
                     }
                     //update img address of the shop
                     effectedNum = shopDao.updateShop(shop);
                     if (effectedNum <= 0) {
-                        throw new ShopOperationException("fail to update img address");
+                        LOG.error("failed to updated image address");
+                        throw new ShopOperationException("Failed to add image");
+                    }
+                    ShopAuthMap shopAuthMap = new ShopAuthMap();
+                    shopAuthMap.setTitle("Owner");
+                    shopAuthMap.setShop(shop);
+                    shopAuthMap.setLastEditTime(new Date());
+                    shopAuthMap.setLastEditTime(new Date());
+                    shopAuthMap.setEmployee(shop.getOwner());
+                    shopAuthMap.setEnableStatus(1);
+                    shopAuthMap.setTitleFlag(0);
+                    try {
+                        effectedNum = shopAuthMapDao.insertShopAuthMap(shopAuthMap);
+                        if (effectedNum <= 0) {
+                            LOG.error("addShop: authorization creation failed");
+
+                            throw new ShopOperationException("authorization creation failed");
+                        }
+                    } catch (Exception e) {
+                        LOG.error("insertShopAuthMap error:" + e.getMessage());
+
+                        throw new ShopOperationException("authorization creation failed");
                     }
                 }
-
             }
 
         } catch (Exception e) {
-            throw new ShopOperationException("add shop error" + e.getMessage());
+            LOG.error("add shop error:" + e.getMessage());
+
+            throw new ShopOperationException("Failed to add shop");
         }
         return new ShopExecution(ShopStateEnum.CHECK, shop);
 

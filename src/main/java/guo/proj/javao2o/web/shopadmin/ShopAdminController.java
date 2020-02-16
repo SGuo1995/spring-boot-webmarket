@@ -31,7 +31,10 @@ public class ShopAdminController {
     public String shopManagement() {
         return "shop/shopmanagement";
     }
-
+    @RequestMapping(value = "/awardoperation")
+    public String awardOperation() {
+        return "shop/awardoperation";
+    }
     @RequestMapping(value = "/awardmanagement")
     public String awardManagement() {
         return "shop/awardmanagement";
@@ -65,6 +68,11 @@ public class ShopAdminController {
     @RequestMapping(value = "/operationsuccess")
     public String operationSuccess() {
         return "shop/operationsuccess";
+    }
+
+    @RequestMapping(value = "/productbuycheck")
+    public String productBuyCheck() {
+        return "shop/productbuycheck";
     }
 
 }

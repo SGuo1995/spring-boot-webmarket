@@ -43,6 +43,7 @@ public class DataSourceConfiguration {
         dataSource.setMaxPoolSize(30);
         //Min number of threads
         dataSource.setMinPoolSize(10);
+        dataSource.setInitialPoolSize(10);
         //Do not auto-commit when close connection
         dataSource.setAutoCommitOnClose(false);
         //Time out time

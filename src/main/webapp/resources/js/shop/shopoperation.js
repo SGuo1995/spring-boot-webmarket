@@ -106,7 +106,7 @@ $(function() {
         // 获取表单里输入的验证码
         var verifyCodeActual = $('#j_captcha').val();
         if (!verifyCodeActual) {
-            $.toast('请输入验证码！');
+            $.toast('Please enter verify code!');
             return;
         }
         formData.append('verifyCodeActual', verifyCodeActual);
@@ -120,13 +120,13 @@ $(function() {
             cache : false,
             success : function(data) {
                 if (data.success) {
-                    $.toast('提交成功！');
+                    $.toast('Submission success');
                     if (!isEdit) {
                         // 若为注册操作，成功后返回店铺列表页
                         window.location.href = "/javao2o/shopadmin/shoplist";
                     }
                 } else {
-                    alert('提交失败！' + data.errMsg);
+                    alert('Submission failed' + data.errMsg);
                 }
                 // 点击验证码图片的时候，注册码会改变
                 $('#captcha_img').click();

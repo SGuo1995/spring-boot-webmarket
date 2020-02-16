@@ -29,4 +29,29 @@ public class FrontendController {
     private String showProductDetail() {
         return "/frontend/productdetail";
     }
+
+    @RequestMapping(value = "/awardlist", method = RequestMethod.GET)
+    private String showAwardList() {
+        return "/frontend/awardlist";
+    }
+
+    @RequestMapping(value = "/pointrecord", method = RequestMethod.GET)
+    private String showPointRecord() {
+        return "/frontend/pointrecord";
+    }
+
+    @RequestMapping(value = "/myawarddetail", method = RequestMethod.GET)
+    private String showAwardDetail() {
+        return "/frontend/myawarddetail";
+    }
+
+    @RequestMapping(value = "/myrecord", method = RequestMethod.GET)
+    private String showMyRecord() {
+        return "/frontend/myrecord";
+    }
+
+    @RequestMapping(value = "/mypoint", method = RequestMethod.GET)
+    private String showMyPoint() {
+        return "/frontend/mypoint";
+    }
 }

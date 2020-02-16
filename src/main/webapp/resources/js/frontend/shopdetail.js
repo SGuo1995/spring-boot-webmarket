@@ -18,11 +18,8 @@ $(function () {
     getSearchDivData();
     // 预先加载10条商品信息
     addItems(pageSize, pageNum);
-
-    // 给兑换礼品的a标签赋值兑换礼品的URL，2.0讲解
-    // $('#exchangelist').attr('href', '/o2o/frontend/awardlist?shopId=' +
-    // shopId);
-    // 获取本店铺信息以及商品类别信息列表
+    $('#exchangelist').attr('href', '/javao2o/frontend/awardlist?shopId=' +
+    shopId);
     function getSearchDivData() {
         var url = searchDivUrl;
         $
