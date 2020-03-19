@@ -121,7 +121,7 @@ public class LocalAuthController {
 
         } else {
             modelMap.put("success", false);
-            modelMap.put("errMsg", "请输入密码");
+            modelMap.put("errMsg", "Please enter password");
         }
         return modelMap;
     }

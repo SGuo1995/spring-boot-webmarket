@@ -90,12 +90,16 @@ public class WechatLoginController {
                 personInfo = personInfoService.getPersonInfoById(wechatAuth.getPersonInfo().getUserId());
                 request.getSession().setAttribute("user", personInfo);
             }
+        } else {
+            PersonInfo personInfo = personInfoService.getPersonInfoById(wechatAuth.getPersonInfo().getUserId());
+            request.getSession().setAttribute("user", personInfo);
+
         }
         //if user click frontend button in wechat, go to frontend, otherwise go to shopadmin
         if (FRONTEND.equals(roleType)) {
             return "frontend/index";
         } else {
-            return "shopadmin/shoplist";
+            return "shop/shoplist";
         }
     }
 }

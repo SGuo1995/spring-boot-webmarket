@@ -64,6 +64,7 @@ public class ShopCategoryServiceImpl implements ShopCategoryService {
                 logger.error(e.getMessage());
                 throw new ShopCategoryOperationException(e.getMessage());
             }
+            jedisKeys.expired(key, 600);
             jedisStrings.set(key, jsonString);
         } else {
             // 若存在，则直接从redis里面取出相应数据
@@ -87,7 +88,7 @@ public class ShopCategoryServiceImpl implements ShopCategoryService {
                 throw new ShopCategoryOperationException(e.getMessage());
             }
         }
-        return shopCategoryDao.queryShopCategory(shopCategoryCondition);
+        return shopCategoryList;
     }
 
 }
